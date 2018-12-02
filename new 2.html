@@ -1,0 +1,14 @@
+<html>
+<body>
+Enter Your Comment:-<br/>
+<input type="text" id="txtComment"><br/>
+<input type="button" value="Display Comment" onclick="display();"><br/><br/>
+<span id="lblComment"></span>
+</body>
+<script type="application/javascript">
+function display()
+	{
+		document.getElementById("lblComment").innerHTML=document.getElementById("txtComment").value;
+	}
+</script>
+</html>
